@@ -95,7 +95,6 @@ At the end of the process, the vehicle is able to drive autonomously around the 
 
 The final model architecture (model.py lines 79-99) consisted of a convolution neural network with the following layers and layer sizes.
 
-<<<<<<< HEAD
 * normalization
 * 5x5 convolution layer, depth 3
 * 5x5 convolution layer, depth 24
@@ -107,19 +106,7 @@ The final model architecture (model.py lines 79-99) consisted of a convolution n
 * Fully connected layer, 50 neurons
 * Fully connected layer, 10 neurons
 * Fully connected layer, 1 neurons
-=======
-#normalization
-#5x5 convolution layer, depth 3
-#5x5 convolution layer, depth 24
-#5x5 convolution layer, depth 36
-#3x3 convolution layer, depth 48
-#3x3 convolution layer, depth 64
-#Flatten layer, 1164 neurons
-#Fully connected layer, 100 neurons
-#Fully connected layer, 50 neurons
-#Fully connected layer, 10 neurons
-#Fully connected layer, 1 neurons
->>>>>>> abeb9ecfaf539e7bddbf6e2e8efcdbd1772476a6
+
 
 Here is a visualization of the architecture:
 
@@ -134,7 +121,6 @@ To capture good driving behavior, I first recorded two laps on track one using c
 I then recorded the vehicle recovering from the left side and right sides of the road back to center so that the vehicle would learn to recover from side of the road back to the center when it drives itself. Below images show what a recovery looks like:
 
 ![alt text][image3]
-<<<<<<< HEAD
 
 ![alt text][image4]
 
@@ -146,13 +132,6 @@ I then recorded the vehicle recovering from the left side and right sides of the
 
 ![alt text][image8]
 
-=======
-![alt text][image4]
-![alt text][image5]
-![alt text][image6]
-![alt text][image7]
-![alt text][image8]
->>>>>>> abeb9ecfaf539e7bddbf6e2e8efcdbd1772476a6
 ![alt text][image9]
 
 
